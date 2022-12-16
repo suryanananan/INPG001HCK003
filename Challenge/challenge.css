@@ -1,0 +1,142 @@
+#container{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#inner-container{
+    margin: 15px 15px 15px 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+#isi{
+    margin: 15px 15px 15px 15px;
+}
+
+#home{
+    margin: 15px;
+}
+
+#product{
+    margin: 15px;
+}
+
+#gallery{
+    margin: 15px;
+}
+
+#blog{
+    margin: 15px;
+}
+
+#inventory{
+    margin: 15px;
+    padding-right: 30px;
+}
+
+#menu-bar{
+    background-color: rgb(40, 212, 63);
+    text-align: left;
+    box-shadow: 50px #0808086c;
+    margin-bottom: 80px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+#profile{
+    margin: 20px 20px 20px 20px;
+    border-radius: 50px;
+}
+
+#kontak {
+    background-color:blue;
+    border-radius: 5px;
+    color:aliceblue;
+    border-color: aliceblue;
+}
+
+#resume {
+    background-color: aliceblue;
+    border-radius: 5px;
+    color:darkgreen;
+    border-color: darkgreen;
+}
+
+#garis{
+    margin-top: 15%;
+    border-radius: 10px;
+    box-shadow: 10px;
+}
+
+#submit {
+    background-color:green;
+    border-radius: 5px;
+    color:white;
+    border-color:white;
+}
+
+#table{
+    background-color: aliceblue;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#hacktiv8{
+    margin-left: 15px;
+}
+
+#profile{
+    margin: 15px;
+}
+
+#portofolio{
+    margin: 15px;
+}
+
+#tutorial{
+    margin: 15px;
+}
+
+#banner{
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(124, 223, 124);
+    border-color: black;
+    border-radius: 15px 15px 15px 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#card{
+    margin-top: 3%;
+    margin-right: 2%;
+    margin-left: 2%;
+    padding: 2%;
+}
+
+#card1{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#card2{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#card3{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#card4{
+    margin-left: 10px;
+    margin-right: 10px;
+}

@@ -1,0 +1,60 @@
+#profile{
+    margin: 20px 20px 20px 20px;
+    border-radius: 50px;
+}
+
+#kontak {
+    background-color:blue;
+    border-radius: 5px;
+    color:aliceblue;
+    border-color: aliceblue;
+}
+
+#resume {
+    background-color: aliceblue;
+    border-radius: 5px;
+    color:darkgreen;
+    border-color: darkgreen;
+}
+
+#submit {
+    background-color:green;
+    border-radius: 5px;
+    color:white;
+    border-color:white;
+}
+
+#table{
+    background-color: aliceblue;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#profile{
+    margin: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 15px;
+    box-shadow: 25px;
+}
+
+#pic{
+    border-radius: 20px;
+}
+
+#nametag{
+    margin-right: 20px;
+    border-radius: 20px;
+    padding-right: 5px;
+}
+
+#data{
+    margin-left: 15px;
+    margin-right: 20px;
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
