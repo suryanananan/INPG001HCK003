@@ -1,0 +1,16 @@
+#atas{
+    background-color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 15px;
+    padding: 15px;
+}
+
+#card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

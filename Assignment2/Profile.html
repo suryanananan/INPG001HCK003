@@ -18,8 +18,8 @@
 
                 <td id="nametag">
                     <table>
-                        <tr><td style="font-family: Georgia;"><h1>Nana Suryana</h1></td></tr>
-                        <tr><td><h2 style="font-family: Georgia;size: 10px;">Front End Designer</h2></td></tr>
+                        <tr><td style="font-family: Georgia;"><h1 id="ns">Nana Suryana</h1></td></tr>
+                        <tr><td><h2 id="roles" style="font-family: Georgia;size: 10px;">Front End Designer</h2></td></tr>
                         <tr><td><button id="edit" value="Edit" class="btn btn-primary">Edit</button>&nbsp;&nbsp;&nbsp;<button id="resume" value="Resume" class="btn btn-outline-success">Resume</button></td></tr>
                     </table>
                 </td>
@@ -36,11 +36,11 @@
 
                 <td id="data2" align="left">
                     <table>
-                        <tr><td>: 6 p.m - 12 p.m </td></tr>
-                        <tr><td>: 24</td></tr>
-                        <tr><td>: Citayam</td></tr>
-                        <tr><td>: Zero</td></tr>
-                        <tr><td>: Nanasury2405@bsi.ac.id</td></tr>
+                        <tr><td><label id="av">: 6 p.m - 12 p.m </label></td></tr>
+                        <tr><td><label id="us">: 24</label></td></tr>
+                        <tr><td><label id="lok">: Citayam</label></td></tr>
+                        <tr><td><label id="year">: Zero</label></td></tr>
+                        <tr><td><label id="emails">: Nanasury2405@bsi.ac.id</label></td></tr>
                     </table>
 
             </tr>
@@ -59,42 +59,42 @@
             <tr><td>&nbsp;</td></tr>
     
             <tr><td colspan="4"><div class="form-floating mb-3">
-                <input type="nama" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <input type="nama" class="form-control" id="nama" placeholder="name@example.com">
                 <label for="floatingInput">Nama Lengkap</label>
             </div></td></tr>
             
             <tr><td>&nbsp;</td></tr>
             
             <tr><td colspan="4"><div class="form-floating mb-3">
-                <input type="role" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <input type="role" class="form-control" id="role" placeholder="name@example.com">
                 <label for="floatingInput">Role</label>
             </div></td></tr>
             
             <tr><td>&nbsp;</td></tr>
             
             <tr><td colspan="4"><div class="form-floating mb-3">
-                <input type="avaibility" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <input type="avaibility" class="form-control" id="avaibility" placeholder="name@example.com">
                 <label for="floatingInput">Avaibility</label>
             </div></td></tr>
             
             <tr><td>&nbsp;</td></tr>
             
             <tr><td colspan="4"><div class="form-floating mb-3">
-                <input type="usia" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <input type="usia" class="form-control" id="usia" placeholder="name@example.com">
                 <label for="floatingInput">Usia</label>
             </div></td></tr>
             
             <tr><td>&nbsp;</td></tr>
             
             <tr><td colspan="4"><div class="form-floating mb-3">
-                <input type="lokasi" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <input type="lokasi" class="form-control" id="lokasi" placeholder="name@example.com">
                 <label for="floatingInput">Lokasi</label>
             </div></td></tr>
             
             <tr><td>&nbsp;</td></tr>
             
             <tr><td colspan="4"><div class="form-floating mb-3">
-                <input type="years" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <input type="years" class="form-control" id="years" placeholder="name@example.com">
                 <label for="floatingInput">Years Experience</label>
             </div></td></tr>
             
@@ -108,16 +108,40 @@
             <tr><td>&nbsp;</td></tr>
             
             <tr>
-                <td colspan="4" align="center"><input class="btn btn-success" type="submit" value="submit" name="submit" id="submit"></td>
+                <td colspan="4" align="center"><input class="btn btn-success" type="submit" value="submit" name="submit" id="submit" onclick="ubah()"></td>
             </tr>
             
-            
+            <label></label>
+
         </table>
 
     </div>
 
     <script>
+    function ubah() {
+        var nama = document.getElementById("nama").value ;
+        document.getElementById("ns").innerHTML = "<b>" + nama +"</b>";
 
+        var role = document.getElementById("role").value ;
+        document.getElementById("roles").innerHTML = "<b>" + role +"</b>";
+
+        var avaibility = document.getElementById("avaibility").value ;
+        document.getElementById("av").innerHTML = "<b>" + avaibility +"</b>";
+
+        var usia = document.getElementById("usia").value ;
+        document.getElementById("us").innerHTML = "<b>" + usia +"</b>";
+
+        var lokasi = document.getElementById("lokasi").value ;
+        document.getElementById("lok").innerHTML = "<b>" + lokasi +"</b>";
+
+        var years = document.getElementById("years").value ;
+        document.getElementById("year").innerHTML = "<b>" + years +"</b>";
+
+        var email = document.getElementById("email").value ;
+        document.getElementById("emails").innerHTML = "<b>" + email +"</b>";
+
+
+    }
         
     </script>
 
