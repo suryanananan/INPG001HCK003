@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
 <body>
+    
     <table align="center"><tr><td><p><h1>Section Profile</h1></p></td></tr></table>
     
     <div id="profile">
@@ -20,7 +21,7 @@
                     <table>
                         <tr><td style="font-family: Georgia;"><h1 id="ns">Nana Suryana</h1></td></tr>
                         <tr><td><h2 id="roles" style="font-family: Georgia;size: 10px;">Front End Designer</h2></td></tr>
-                        <tr><td><button id="edit" value="Edit" class="btn btn-primary">Edit</button>&nbsp;&nbsp;&nbsp;<button id="resume" value="Resume" class="btn btn-outline-success">Resume</button></td></tr>
+                        <tr><td><button id="edit" value="edit" class="btn btn-primary" onclick="tampil()">edit</button>&nbsp;&nbsp;&nbsp;<button id="resume" value="Resume" class="btn btn-outline-success">Resume</button></td></tr>
                     </table>
                 </td>
 
@@ -49,9 +50,9 @@
 
     </div>
 
-    <table align="center"><tr><td><p><h1>Section Profile</h1></p></td></tr></table>
+    <table align="center"><tr><td></td></tr></table>
 
-    <div id="form">
+    <div class="displayed" id="form">
 
         <table align="center" width="80%">
             <tr><td>&nbsp;</td></tr>
@@ -140,11 +141,14 @@
         var email = document.getElementById("email").value ;
         document.getElementById("emails").innerHTML = "<b>" + email +"</b>";
 
-
+        document.getElementById('form').style.visibility = "hidden";
     }
-        
+    
+    function tampil() {
+        document.getElementById('form').style.visibility = "visible";
+    }
     </script>
-
+    <script src="./assignment2.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>
